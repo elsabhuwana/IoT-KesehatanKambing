@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "330491162248",
+    "firebase_url": "https://kesehatan-kambing-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kesehatan-kambing",
+    "storage_bucket": "kesehatan-kambing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330491162248:android:04b5d5c45c2e861d71393d",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDmH2lPw-XjPenr5TJacjRFlw6sjlO5IA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

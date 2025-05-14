@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_log_item"> <!-- Bisa tambahkan background sesuai kebutuhan -->
+
+    <TextView
+        android:id="@+id/textViewWaktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Log"/>
+
+    <TextView
+        android:id="@+id/textViewTipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe Log"/>
+
+    <TextView
+        android:id="@+id/textViewPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Log"/>
+
+</LinearLayout>

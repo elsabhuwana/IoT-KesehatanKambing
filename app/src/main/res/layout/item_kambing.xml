@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <!-- Nama Kambing & Indikator Baterai -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvNamaKambing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kambing 1"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgBaterai"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/baseline_battery_5_bar_24"
+            android:layout_gravity="end" />
+    </LinearLayout>
+
+    <!-- Card Suhu & Detak Jantung -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#E0F7FA"> <!-- Warna biru muda untuk suhu tubuh -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suhu Tubuh"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvSuhuTubuh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- °C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#FFCCBC"> <!-- Warna peach untuk detak jantung -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detak Jantung"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvDetakJantung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- BPM"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

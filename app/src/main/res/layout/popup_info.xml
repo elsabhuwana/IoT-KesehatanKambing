@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Saat Ini"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😊 Normal"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/txtNormalRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal: 38°C - 39°C"
+        android:textSize="16sp"
+        android:textColor="#666666" />
+</LinearLayout>
